@@ -7,7 +7,7 @@ namespace Vector_Generator
             InitializeComponent();
         }
 
-         private void btnGenerate_Click(object sender, EventArgs e)
+        private void btnGenerate_Click(object sender, EventArgs e)
         {
             int vectorSize;
             if (int.TryParse(txtSize.Text, out vectorSize) && vectorSize > 0)
